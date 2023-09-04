@@ -1,9 +1,10 @@
 module.exports = {
 	root: true,
 	extends: [
-		'eslint:recommended',
-		'plugin:svelte/recommended'
-	],
+        "eslint:recommended",
+        "plugin:svelte/recommended",
+        "plugin:storybook/recommended"
+    ],
 	parserOptions: {
 		sourceType: 'module',
 		ecmaVersion: 2020,
