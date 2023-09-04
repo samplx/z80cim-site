@@ -1,22 +1,24 @@
-# create-svelte
+# z80cim-site
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This repository contains the sources to the z80cim.org site.
 
-## Creating a project
+The site includes the following features:
 
-If you're seeing this, you've probably already done this step. Congrats!
+* JavaScript (es2020)
+* [Sveltekit](https://kit.svelte.dev/docs)
+* [Svelte](https://svelte.dev/)
+* [Tailwind CSS](https://tailwindcss.com/docs/installation)
+* [PostCSS](https://postcss.org/docs/)
+* [Husky](https://typicode.github.io/husky/)
+* [Storybook](https://storybook.js.org/docs/svelte/get-started/install)
+* [Vitest](https://vitest.dev/guide/)
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Install dependencies with `npm install`.
+
+To start a development server:
 
 ```bash
 npm run dev
@@ -35,4 +37,9 @@ npm run build
 
 You can preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Deployment
+
+The site is currently static with all page prerendered.
+
+The contents of the `build` directory are `rsync`'d with the production system.
+A very non-google scale process for a low-volume site.
