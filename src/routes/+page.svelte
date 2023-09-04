@@ -1,9 +1,6 @@
-<h1 class="text-3xl font-bold underline">
-    Hello world!
+<h1 class="text-2xl font-bold">
+    z80cim.org
 </h1>
 
-<style lang="postcss">
-    :global(html) {
-      background-color: theme(colors.gray.100);
-    }
-</style>
+<p>A 8-bit computer hobbyist site.</p>
+<p>More to come.</p>
