@@ -2,5 +2,5 @@
     z80cim.org
 </h1>
 
-<p>A 8-bit computer hobbyist site.</p>
+<p>An 8-bit computer hobbyist site.</p>
 <p>More to come.</p>
